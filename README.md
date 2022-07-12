@@ -8,4 +8,4 @@ Tracking my progress on leetcode questions
 <h2> 7/11/2022 </h2>
 
 16/150
-![7-11](7-11.png)
+![7-11](/images/7-11.png)
