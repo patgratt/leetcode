@@ -15,7 +15,7 @@ def twoSum(nums, target):
         if nums[l] + nums[r] == target:
             return [l + 1, r + 1]
         # if the sum is greater than target, move right pointer left bc we wan't a smaller sum
-        # takes advantage of the array being sorted
+        # takes advantage of the array being sorteds
         elif nums[l] + nums[r] > target:
             r -= 1
         # if too low, shift the pointer right
