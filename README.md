@@ -14,3 +14,8 @@ Tracking my progress on leetcode questions
 
 22/150
 ![7-22](/images/7-28.png)
+
+<h2> 9/14/2022 </h2>
+
+25/150
+![9-14](/images/9-14.png)
