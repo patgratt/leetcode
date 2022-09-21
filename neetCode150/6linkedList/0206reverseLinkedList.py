@@ -1,8 +1,6 @@
-# ref = https://www.geeksforgeeks.org/reverse-a-linked-list/
-
 # implement the linked list
 class ListNode:
-    def __init__(self, val):
+    def __init__(self, val=0, next=None):
         self.val = val
         self.next = None
 
