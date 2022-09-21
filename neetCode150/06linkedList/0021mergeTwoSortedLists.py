@@ -1,4 +1,4 @@
-# define the linked list
+# Definition for singly-linked list.
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
@@ -20,10 +20,8 @@ class ListNode:
 
 # solution
 def mergeTwoLists(list1, list2):
-
     dummy = ListNode()
     tail = dummy
-
     # break when one of the lists is empty
     while list1 and list2:
         if list1.val < list2.val:
