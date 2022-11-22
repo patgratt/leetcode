@@ -15,7 +15,7 @@ def generateParentheses(n):
         if openN < n:
             stack.append("(")
             backtrack(openN + 1, closedN)
-            stack.pop()
+            stack.pop() # this pop is crucial
 
         # we still have room to add closed
         if closedN < openN:
