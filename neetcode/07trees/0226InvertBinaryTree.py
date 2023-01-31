@@ -48,3 +48,27 @@ printTree(testcase)
 # run testcase
 invertTree(testcase)
 printTree(testcase)
+
+# my solution months later
+
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def invertTree(self, root):
+        # DFS
+        # base case
+        def dfs(node):
+            if not node:
+                return
+            dfs(node.left)
+            dfs(node.right)
+            tmp = node.left
+            node.left = node.right
+            node.right = tmp
+
+        dfs(root)
+        return root
